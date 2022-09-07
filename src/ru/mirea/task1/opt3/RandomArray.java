@@ -23,6 +23,5 @@ public class RandomArray {
         for(int i=0;i<n;i++){
             System.out.println(array[i]);
         }
-
     }
 }
