@@ -10,11 +10,18 @@ public class RandomArray {
         int n = scan.nextInt();
         double[] array = new double[n];
         for(int i=0;i<n;i++){
-            array[i] = Math.random();
+            array[i] = (int)(Math.random()*10)+1;
         }
+        System.out.println("Math.random array: ");
         for(int i = 0; i < n; i++){
             System.out.println(array[i]);
         }
-
+        for(int i=0;i<n;i++){
+            array[i] = rand.nextInt(10)+1;
+        }
+        System.out.println("Random class array: ");
+        for(int i=0;i<n;i++){
+            System.out.println(array[i]);
+        }
     }
 }
