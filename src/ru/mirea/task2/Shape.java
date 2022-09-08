@@ -5,7 +5,6 @@ public class Shape {
     private int corners;
     public String toString() {
         return "Shape - " + name + "\nNumber of corners = " + corners;
-
     }
     public void setCorners(int corners) {
         this.corners = corners;
