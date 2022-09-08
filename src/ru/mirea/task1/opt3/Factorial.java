@@ -12,4 +12,8 @@ public class Factorial {
         }
         System.out.println(fact);
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> origin/master
