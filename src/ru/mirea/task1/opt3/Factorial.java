@@ -2,7 +2,7 @@ package ru.mirea.task1.opt3;
 import java.util.Scanner;
 
 public class Factorial {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         int fact = 1;
         System.out.println("Enter number");
         Scanner scan = new Scanner(System.in);
@@ -12,8 +12,4 @@ public class Factorial {
         }
         System.out.println(fact);
     }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> origin/master
