@@ -10,7 +10,7 @@ public class TestDog {
         String dogName = "";
         int dogAge = 0;
         for (int i = 0; i < n; i++){
-            dogName = scan.nextLine();
+            dogName = scan.next();
             dogAge = scan.nextInt();
             obj[i] = new Dog(dogName,dogAge);
         }
