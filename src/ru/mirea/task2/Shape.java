@@ -7,12 +7,10 @@ public class Shape {
         return "Shape - " + name + "\nNumber of corners = " + corners;
 
     }
-    public static void main(String[] args) {
-        Shape x = new Shape();
-        x.name = "Triangle";
-        x.corners = 3;
-
-        System.out.println(x);
+    public void setCorners(int corners) {
+        this.corners = corners;
+    }
+    public void setName(String name) {
+        this.name = name;
     }
 }
-
