@@ -12,6 +12,5 @@ public class CircleTest {
         testCircle.circumferenceMethod();
         testCircle.diameterMethod();
         System.out.println(testCircle);
-
     }
 }
