@@ -1,5 +1,4 @@
 package ru.mirea.task3;
-import java.util.Scanner;
 
 public class Human {
     private String name;
