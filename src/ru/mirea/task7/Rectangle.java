@@ -29,7 +29,7 @@ public class Rectangle extends Shape{
     public void setLength(double length) {
         this.length = length;
     }
-    public Rectangle(String color, boolean filled, double width, double length) {
+    public Rectangle(double width, double length, String color, boolean filled ) {
         super(color, filled);
         this.width = width;
         this.length = length;

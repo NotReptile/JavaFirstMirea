@@ -12,7 +12,7 @@ public class Circle extends Shape{
     public double getPerimeter() {
         return 0;
     }
-    public Circle(String color, boolean filled, double radius) {
+    public Circle(double radius,String color, boolean filled) {
         super(color, filled);
         this.radius = radius;
     }
