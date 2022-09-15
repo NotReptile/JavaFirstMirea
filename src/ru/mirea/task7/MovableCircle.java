@@ -1,4 +1,26 @@
 package ru.mirea.task7;
 
-public class MovableCircle {
+public class MovableCircle implements Movable{
+    private int radius;
+    private MovablePoint center;
+    //private MovablePoint movablePoint;
+    public MovableCircle(int x, int y, int xSpeed, int ySpeed,int radius) {
+    }
+
+    @Override
+    public void moveUp() {
+
+    }
+    @Override
+    public void moveDown() {
+
+    }
+    @Override
+    public void moveLeft() {
+
+    }
+    @Override
+    public void moveRight() {
+
+    }
 }
