@@ -55,14 +55,14 @@ public class Task8 extends Application
         Scene scene = new Scene(root);
 
         //draw
-        primaryStage.setTitle("Objectively more difficult than all the previous ones!");
+        primaryStage.setTitle("Random Figures!");
         primaryStage.setScene(scene);
         primaryStage.show();*/
         Group root = new Group();
         Scene scene = new Scene(root,800,800,Color.WHITE);
         Canvas canvas = new Canvas(800, 800);
         root.getChildren().add(canvas);
-        primaryStage.setTitle("Objectively more difficult than all the previous ones!");
+        primaryStage.setTitle("Random Figures!");
         primaryStage.setScene(scene);
         for (int i = 0 ; i < 5; i++){
             for ( int j = 0; j < 1; j++){
