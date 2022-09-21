@@ -55,7 +55,7 @@ public class Task8 extends Application
         Scene scene = new Scene(root);
 
         //draw
-        primaryStage.setTitle("Random Figures!");
+        primaryStage.setTitle("Random Figures");
         primaryStage.setScene(scene);
         primaryStage.show();*/
         Group root = new Group();
